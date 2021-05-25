@@ -1,0 +1,244 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+/* Inicio CSS Header */
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 35px 0;
+	border-top: 0.5px solid;
+	border-bottom: 0.5px solid;
+	border-color: black;
+	background: #421C52;
+	margin: 0 auto;
+	padding-right: 20px;
+ }
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	margin: 25px 25px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 25px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+/* FIM CSS Header */
+
+.section1 {
+	background: #212023;
+	padding: 200px 0; 
+	border-top: 0.5px solid;
+	border-color: black;
+}
+
+.titulo_principal {
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.meu_nome {
+	font-weight: bold;
+	font-size: 4em;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.subtitulo {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #421C52;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	border: solid 1px;
+	border-color: black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.seta {
+	margin-top: 25px;
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.section2 {
+	background: #421C52;
+	padding: 200px 0; 
+	border-top: 0.5px solid;
+	border-color: black;
+	text-align: center;
+}
+
+.titulo_projetos {
+	font-weight: bold;
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: 15px;
+	max-width: 800px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid;
+    border-color: white;
+    padding-bottom: 10px;
+}
+
+.grid_projetos {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+
+
+.formulario_link {
+	text-decoration: none;
+}
+
+.projeto_img {
+    max-width:350px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+	border-color: black;
+	border-radius: 3px;
+
+}
+
+.projeto_formulario {
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.8rem;
+	text-align: center;
+	background: #212023;
+	border: solid 1px;
+	border-color: black;
+	border-radius: 3px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+/* CSS da página do formulário - rodapé */
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 15px;
+	border-top: 0.5px solid;
+	border-color: black;
+
+}
+
+.instagram_logo {
+	width: 40px;
+	margin: 20px auto;
+}
+
+.linkedin_logo {
+	width: 45px;
+	margin: 20px auto;
+}
+
+.instagram_logo:hover {
+	width: 70px;
+	margin: 20px auto;
+	transition: 1s;
+}
+
+.linkedin_logo:hover {
+	width: 75px;
+	margin: 20px auto;
+	transition: 1s;
+}
+
+.github_logo {
+	width: 60px;
+	margin: 20px auto;
+}
+
+.github_logo:hover {
+	width: 90px;
+	margin: 20px auto;
+	transition: 1s;
+}
+
+.wpp_logo {
+	width: 30px;
+	margin: 20px auto;
+}
+
+.wpp_logo:hover {
+	width: 50px;
+	margin: 20px auto;
+	transition: 1s;
+}
+
+.gmail_logo {
+	width: 30px;
+	margin: 20px auto;
+}
+
+.gmail_logo:hover {
+	width: 50px;
+	margin: 20px auto;
+	transition: 1s;
+}
+
+div.box {
+	display: block;
+	text-align: middle;
+	margin: 50px;
+}
+
+div.box1 {
+	display: inline-block;
+	text-align: middle;
+	margin-top: 50px
+}
+
+div.box2 {
+	display: inline-block;
+	text-align: middle;
+	margin: 0px 20px auto;
+}
+
+.texto {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.copyright {
+	font-style: italic;
+	font-size: 0.8em
+}
